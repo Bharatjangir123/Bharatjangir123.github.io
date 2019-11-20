@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/master.css">
+<script src="js/bootstrap.min.js"></script>
+
+<!-- font Awesome code -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <style>
+  body {
+    position: relative; 
+  }
+/* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+  </style>
+</head>
+
+<body>
+
+<!--slider start-->
+<div class="container-fluid">
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/myimage-01.jpg" alt="Los Angeles">
+    </div>
+    <div class="carousel-item">
+      <img src="images/myimage-02.jpg" alt="Chicago">
+    </div>
+    <div class="carousel-item">
+      <img src="images/myimage-03.jpg" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+
+</div>
+<!--slider end-->
+
+<div class="container">
+<i class="fa fa-car"></i>
+<i class="fa fa-cat" style="font-size:48px;"></i>
+<i class="fa fa-car" style="font-size:60px;color:red;"></i>
+
+<i class="fas fa-tractor"></i>
+
+</div>
+
+
+<div class="container">
+
+<h3>Tooltip Example</h3>
+  <p>The data-placement attribute specifies the tooltip position.</p>
+  <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!">Top</a>
+  <a href="#" data-toggle="tooltip" data-placement="bottom" title="Hooray!">Bottom</a>
+  <a href="#" data-toggle="tooltip" data-placement="left" title="Hooray!">Left</a>
+  <a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">Right</a>
+
+<h3>Box Example</h3>
+
+<!--row box start-->
+<div class="row">
+
+<div class="col-sm-3">
+<a href="https://www.mbauniverse.com/ibsat/admit-card"><div class="box">Dummy  Text Type here. </div> </a>
+</div>
+
+<div class="col-sm-3">
+<a href="https://www.mbauniverse.com/ibsat/admit-card"><div class="box">Dummy  Text Type here. </div> </a>
+</div>
+
+<div class="col-sm-3">
+<a href="https://www.mbauniverse.com/ibsat/admit-card"><div class="box">Dummy  Text Type here. </div> </a>
+</div>
+
+<div class="col-sm-3">
+<a href="https://www.mbauniverse.com/ibsat/admit-card"><div class="box">Dummy  Text Type here. </div> </a>
+</div>
+
+
+</div>
+<!--row box start-->
+
+
+<h3>Table Example</h3>
+
+<div class="table-responsive">
+<table class="table table-striped table-hover table-bordered table-dark">
+<tr>
+<th>Name</th>
+<th>Mobile</th>
+<th>Email Id</th>
+</tr>
+
+<tr>
+<td>Ramesh</td>
+<td>998889988</td>
+<td>ramesh@gmail.com</td>
+</tr>
+<tr>
+<td>Ramesh</td>
+<td>998889988</td>
+<td>ramesh@gmail.com</td>
+</tr>
+<tr>
+<td>Ramesh</td>
+<td>998889988</td>
+<td>ramesh@gmail.com</td>
+</tr>
+</table>
+</div>
+
+<hr>
+
+
+<h3 style="clear: both;">Images Example</h3>
+
+<div class="row">
+<div class="col-sm-3"><img src="images/student.jpg" class="rounded img-fluid" /></div>
+<div class="col-sm-3"><img src="images/student.jpg" class="rounded-circle img-fluid" /></div>
+<div class="col-sm-3"><img src="images/student.jpg" class="img-thumbnail img-fluid" /></div>
+<div class="col-sm-3"><img src="images/student.jpg" class="img-fluid" /></div>
+</div>
+
+<div class="row">
+
+<div class="col-sm-12"><img src="images/student.jpg" class="img-fluid mx-auto d-block" width="250" height="250" style="margin-top:20px;" /></div>
+</div>
+
+
+<hr>
+<h4>Button Example</h4>
+
+ <button type="button" class="btn">Basic</button>
+  <button type="button" class="btn btn-primary">Primary</button>
+  <button type="button" class="btn btn-secondary">Secondary</button>
+  <button type="button" class="btn btn-success">Success</button>
+  <button type="button" class="btn btn-info">Info</button>
+  <button type="button" class="btn btn-warning">Warning</button>
+  <button type="button" class="btn btn-danger">Danger</button>
+  <button type="button" class="btn btn-dark">Dark</button>
+  <button type="button" class="btn btn-light">Light</button>
+  <button type="button" class="btn btn-link">Link</button>      
+
+<hr>
+
+
+<h4>Pagination Example</h4>
+<section>
+
+<ul class="pagination">
+<li class="page-item"><a href="#" class="page-link">Previous</a></li>
+<li class="page-item"><a href="#" class="page-link">01</a></li>
+<li class="page-item active"><a href="#" class="page-link">02</a></li>
+<li class="page-item"><a href="#" class="page-link">03</a></li>
+<li class="page-item"><a href="#" class="page-link">Next</a></li>
+</ul>
+
+</section>
+<hr>
+
+
+<h4>Form Example</h4>
+
+<form>
+<div class="form-group">
+<lable for ="uname">User Name:</lable>
+<input type="text" class="form-control" id="uname" placeholder="User Name">
+</div>
+
+<div class="form-group">
+<lable for ="pwd">Password: </lable>
+<input type="text" class="form-control" placeholder="Password" id="psw">
+</div>
+
+<button class="btn btn-primary">Submit</button>
+</form>
+
+
+<hr>
+<h4>Form Example</h4>
+
+<form>
+
+<div class="form-inline">
+<lable for ="uname">User Name: </lable>
+<input type="text" class="form-control" id="uname" placeholder="User Name">
+<lable for ="pwd">Password: </lable>
+<input type="text" class="form-control" placeholder="Password" id="psw">
+<button class="btn btn-primary">Submit</button>
+
+</div>
+</form>
+
+
+<hr>
+<h4>Form Example</h4>
+
+<form>
+
+<div class="form-group">
+<lable for="username">User Name:</lable>
+<input type="text" class="form-control" id="username" name="username" placeholder="Enter Name" required />
+</div>
+
+<div class="form-group">
+<lable for="pwd">User Name:</lable>
+<input type="text" class="form-control" id="pwd" name="pwd" placeholder="Enter Password" required />
+</div>
+
+<div class="form-group form-check">
+
+<lable class="form-group-check">
+<input type="checkbox" class="form-group-input" /> Remember me
+</lable>
+<br>
+
+<button type="submit" class="btn btn-danger">Submit</button>
+
+</div>
+
+
+</form>
+
+
+
+<hr>
+
+<form class="needs-validation" novalidate>
+
+<div class="form-group">
+<lable for="username">User Name:</lable>
+<input type="text" id="username" class="form-control" name="username" placeholder="Enter Name" required />
+
+<div class="valid-feedback">Valid.</div>
+<div class="invalid-feedback">Please fill out this field.</div>
+
+</div>
+
+<button type="submit" class="btn btn-primary">Submit</button>
+
+
+</form>
+
+
+
+
+
+</div>
+
+<!--Validation Form code-->
+
+<script>
+// Disable form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Get the forms we want to add validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+<!--Validation Form code-->
+
+
+<!--tooltip code-->
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+<!--tooltip code-->
+
+	
+
+</body>
+</html>
